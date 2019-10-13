@@ -1,11 +1,36 @@
-label scenario_a_story_about_holly:
-    "This is a basic draft"
-
-
-
 $ config.developer = True
 
-label holly_vars:
+ #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ #Custom Transitions
+image alpha_control:
+    "scenario/A story about holly/assets/spotlight.png"
+
+    anchor (.5, .5)
+
+    parallel:
+        zoom 0
+        linear .5 zoom .75
+        pause 2
+        linear 1.0 zoom 4.0
+
+    parallel:
+        xpos 0.0 ypos .6
+        linear 1.5 xpos 1.0
+        linear 1.0 xpos .5 ypos .2
+
+    pause .5
+    repeat
+
+define alpha_transition = AlphaDissolve("alpha_control", delay=3.5)
+
+define dream_transition = ImageDissolve("scenario/A story about holly/assets/imagedissolve dream.png", 2.0, 64)
+
+define dissolve_qick = Dissolve(0.3)
+
+
+ #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+label scenario_a_story_about_holly:
     $ h_holly.name = "Holly"
     $ sandra.name = "Mom"
     $ cassie.name = "Cassie"
@@ -975,13 +1000,130 @@ label holly_vars:
     "The rest of the day was spent drinking and roundly abusing Erin, Bethany bought us a takeaway dinner and I fell happily asleep on the sofa with my best friends either side of me."
     "I knew the feeling wouldn't last and I'd probably wake up feeling down...again...but nothing could've prepared me for just how much things would slide over the coming few days."
     title "The last few steps to rock bottom"
-    blabla
+    scene h_bg star with dissolve
+    "Bethany, Paul and Haley spent Sunday packing. By unfortunate coincidence all three of them were going away at the same time...as were my parents and Blaire ..."
+    "Haley was off on a climbing trip with some friends, while Bethany and Paul were going on holiday for their anniversary...meaning I would be left alone."
+    "The thought of being alone in itself wasn't what was bothering me, it was the emotions that came with it that had me worried."
+    "I was already fragile and prone to tears, ten days by myself was the last thing I needed, I thought that perhaps I should talk about my worries...but after seeing how excited the others were about their various trips I was determined to stick it out and take care of myself, I didn't want them worrying about me..."
+    scene bg sadie livingroom day with dissolve
+    "Haley left in the early hours of the morning, she didn't make much noise but I was already awake, tossing and turning, trying to get my brain to switch off."
+    "Two hours later Bethany and Paul were also ready to go."
+    show h_bethany a_0 at centerright
+    show h_holly b_0 at center
+    with dissolve
+    h_bethany "You sure you'll be ok?"
+    show h_holly b_1
+    holly "I'll be fine, I promise."
+    show h_bethany a_6
+    h_bethany "You look shattered"
+    holly "I didn't sleep well last night; I might go back to bed for a bit."
+    h_bethany "That sounds like a good idea, are you seeing Blaire while we're away?"
+    holly "No, she's on holiday too so I'm not seeing her for another three weeks."
+    show h_bethany a_3
+    h_bethany "Ok, well, enjoy the peace and quiet while we're away and we'll see you in ten days."
+    holly "Have a great trip Beth"
+    h_bethany "See you soon Holly."
+    holly "Bye."
+    "She gives me warm hug and plants a kiss on my forehead"
+    hide h_bethany with easeoutright
+    show h_holly b_6
+    "I watch from the empty living room as she walks out the door, a strange sensation starting in my chest as my insides begin to feel tight. I know I'm perfectly capable of surviving for a week and a half by myself but the way I've been feeling the last few days means I also know this is likely going to feel like a lot longer."
+    title "Ten days later."
+    scene h_asset sorrow
+    nvl clear
+    nvl_narrator "Things have spiraled quickly from OK, to really not OK."
+    nvl_narrator "I tried so hard to keep on top of things, to make sure I ate properly, had some social interaction, got out of the house for a quick walk after work and went to bed on time. I managed it for a couple of days, but after receiving more abusive messages from Erin my resolve quickly crumbled."
+    nvl_narrator "I suffered three horrendous panic attacks on consecutive nights meaning that I didn't manage to drift off until the early hours and spent most of that time tossing and turning. This in turn meant that I was late for work, which lead to me feeling guilty, hopeless and as though I'd let everyone down. I was exhausted, mentally and physically drained and starting to feel like I was drowning in negative thoughts again."
+    nvl_narrator "By the time I reached Sunday night I was a real mess, I couldn't sleep in my room anymore, it felt like the walls were closing in on me. I was hardly eating, I could feel myself getting thinner with each day that passed, leaving the house was next to impossible and I was almost constantly in tears."
+    nvl_narrator "I struggled through Monday at work but called in sick after that. Luckily I had followed Blaire's advice and been honest about my situation at work, my boss had been great about everything and was more than happy to let me take some time off to get myself sorted."
+    "Wednesday morning"
+    "I look across at the clock to see it reads half past eight. Sitting up on the sofa I take a deep breath and assess the state of the room...it's not good...I've been using it as a base since sleeping in my room has become such a struggle, but keeping it tidy hasn't been really high on my list of priorities."
+    "I slide off the sofa and head for the bathroom, taking a deep breath I splash some cold water on my face and start the process of tidying up."
+    scene bg sadie livingroom day
+    "By the time Beth and Paul arrive back at three that afternoon, the house is spotless and the constant activity has helped me to switch off my brain, meaning that I'm feeling a little bit better."
+    "The front door opens and Bethany bursts through it."
+    show h_bethany a_0 at centerright
+    show paul a_0 at right
+    with easeinright
+    h_bethany "HOLLY?!"
+    holly "He guys."
+    show h_holly b_8 at left with easeinleft
+    paul "Why aren't you at work?"
+    show h_holly b_3
+    holly "Nice to see you too..." 
+    h_bethany "Things aren't good again, are they?" 
+    "Beth asks sympathetically."
+    show h_holly b_1:
+        alpha 1.0
+        ease 1.0 xpos placement_of(h_bethany).xpos alpha 1.0
+        xpos placement_of(h_bethany).xpos
+        alpha 1.0
+    "I shake my head and she pulls me into a tight hug."
+    show h_holly b_1 at center with move
+    show h_bethany a_2
+    h_bethany "You feel so thin! Have you eaten nothing while we've been away?!"
+    holly "I- I tried..." 
+    "I stammer as the tears start"
+    show h_holly b_9
+    holly "bu- but it got s- so hard and th- then-"
+    h_bethany "Ok, ok, here's what we'll do," 
+    show h_bethany a_3
+    h_bethany "we'll get a cup of tea, unpack, get some shopping and then you're gonna sit and tell us all about it. Sound good?"
+    "I nod my head as best I can against her, she has no idea just how good that actually sounds."
+    scene h_asset sorrow with dissolve
+    "Six PM."
+    "Bethany was still at the shop and Paul had some errands he needed to do before going back to work, meaning that once again, I was alone."
+    "I flick the tv off and look around the dark room, from nowhere a sudden rush of emotion hits me like a brick and I feel myself starting to panic. Bethany and Paul will be back soon I tell myself, they don't need to see me in this state."
+    "In a desperate attempt to combat the feeling of my chest compressing as despair starts to seep through my core, I switch on the lamp next to me and try to get my breathing to steady."
+    scene bg sadie livingroom day with fade
+    show h_holly b_9 at center:
+        xalign 0.2
+        linear 0.5 faceright
+        linear 1.5 xalign 0.8
+        linear 0.5 faceleft
+        linear 1.5 xalign 0.2
+        repeat 10
+    "I jump up from the sofa and begin pacing the room, repeatedly counting to thirty and back down to one as I walk...it isn't working...my chest won't loosen up...I feel the pins and needles starting in my fingertips...tears start to form in my eyes..."
+    show h_holly b_9 at center, faceleft with move
+    show h_holly b_9:
+        yalign 2.0
+        xalign 0.5
+    image bg sadie livingroom cold = im.MatrixColor('images/bg/sadie livingroom day.png', colder(0.7))
+    "I abandon my pacing on sit hugging my knees on the floor under the window, the cool breeze tickling my cheeks as tears start to drip down them. I might be crying again but at least some of the feelings are coming out."
+    scene bg sadie livingroom cold
+    show h_holly b_9:
+        faceleft
+        yalign 2.0
+        xalign 0.5    
+    "I don't know how long I've been sitting there but the sound of the front door closing and a heavy object hitting the floor draws me out of my revere. A pair of strong hands grip my arms and I find myself being pulled to my feet and into a welcoming embrace."
+    temp_char "Come here sweetheart." 
+    "I breathe in deeply as the tears strengthen again"
+    temp_char "Sshhhh, it's OK, I've got you."
+    "My arms tighten around the warm, soft yet toned body I'm holding without me even bothering to take in who it is, one hand presses against my small of my back while another comes the back of my head and strokes my hair comfortingly."
+    temp_char "Sshhhh, just breathe, that's it."
+    "The smell of women's perfume starts to seep into my nostrils as the tears slowly begin to stop, I take another deep breath and redouble my grip on the woman holding me, my fingers delving into damp material of her jacket."
+    "The fingers running through my hair pause slightly at this and a pair of lips press gently against my forehead."
+    show h_holly b_8
+    temp_char "Are you feeling better?"
+    show h_holly b_8 at faceright
+    show h_haley a_7 at centerright with alpha_transition
+    "I freeze as the sudden realization of who I'm holding onto so tightly becomes clear."
+    h_haley "Holly?" 
+    "Haley pulls away and looks down at me"
+    h_haley "Are you OK?"
+    holly "I...erm...I-"
+    scene bg sadie livingroom day
+    show h_holly b_8:
+        faceright
+        yalign 2.0
+        xalign 0.5  
+    show h_haley a_7 at centerright
+    with dissolve_qick
+    show paul a_0 at right, faceleft with easeinright
+    "The front door opens again and Paul walks in shaking the rain out of his hair."
+    paul "Hey guys, everything OK?"
 
-
-
-
-
-        #-----------------------------------------------------------------------------------------------------------------
+    #-----------------------------------------------------------------------------------------------------------------
     scene h_asset sorrow
     scene h_bg star
     scene h_bg day
@@ -989,8 +1131,9 @@ label holly_vars:
     scene bg connie bedroom clean night
     scene bg connie kitchen day
     scene bg sadie livingroom day
-
-
+    scene bg sadie livingroom day blur
+    scene bg connie bedroom clean dark
+    scene bg connie bedroom blur
     #Lower xalign -> more to left
     #Lower ypos -> downwards
     placeholder
