@@ -1,0 +1,18 @@
+{
+    "display_name": "Bethany",
+    "name_color": "#cac6e6",
+    "scale": 0.82,
+    "voice": "girl",
+    "default_outfit": "uniform",
+    "eye_line": 0.0,
+    "poses": {
+		"a": {
+            "facing": "right",
+            "center_width": 225
+		},
+		"b": {
+            "facing": "right",
+            "center_width": 260
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "display_name": "Kisaragi",
+    "name_color": "#3c4044",
+    "scale": 0.92,
+    "voice": "woman",
+    "default_outfit": "suit",
+    "eye_line": 0.0,
+	"poses": {
+        "a": {
+        	"facing": "right",
+            "center_width": 253
+        },
+        "b": {
+            "facing": "right",
+            "center_width": 253
+		},
+        "c": {
+            "facing": "right",
+            "center_width": 253
+		}
+	}
+}

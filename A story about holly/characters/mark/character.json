@@ -1,0 +1,18 @@
+{
+    "display_name": "Mark",
+    "name_color": "#d1a15b",
+    "scale": 0.98,
+    "voice": "deep",
+    "default_outfit": "casual",
+    "eye_line": 0.0,
+	"poses": {
+        "a": {
+            "image_height": 720,
+            "center_width": 185
+        },
+        "b": {
+            "image_height": 720,
+            "center_width": 185
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "display_name": "Haley",
+    "name_color": "#bf9879",
+    "scale": 1.0,
+    "voice": "girl",
+    "default_outfit": "uniform",
+    "eye_line": 0.0,
+	"poses": {
+		"a": {
+			"facing": "right",
+            "center_width": 162
+		},
+		"b": {
+            "center_width": 187
+		}
+	}
+}
