@@ -27,7 +27,7 @@ define dream_transition = ImageDissolve("scenario/A story about holly/assets/ima
 define swirl_transition = ImageDissolve("scenario/A story about holly/assets/wipe15.png", 2.0, 64)
 define checker_transition = ImageDissolve("scenario/A story about holly/assets/wipe12.png", 2.0, 64)
 
-define dissolve_qick = Dissolve(0.3)
+define dissolve_quick = Dissolve(0.3)
 
 
  #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -1577,7 +1577,7 @@ label scenario_a_story_about_holly:
         yalign 2.0
         xalign 0.5  
     show h_haley a_7 at centerright
-    with dissolve_qick
+    with dissolve_quick
     show paul a_0 at right, faceleft with easeinright
     
     "The front door opens again and Paul walks in shaking the rain out of his hair."
@@ -1701,7 +1701,7 @@ label scenario_a_story_about_holly:
     "My eyes fly open and I find Haley sitting beside me on the bed, her expression anxious. Without pausing she sits back and pulls me with her, wrapping my arms around her waist and holding my head against her chest."
    
     outfit h_haley robe
-    show h_haley a_7 at centerleft, faceleft with dissolve_qick
+    show h_haley a_7 at centerleft, faceleft with dissolve_quick
   
     h_haley "Try to breathe...that's it sweetheart...it was just a dream. You're OK, I'm here."
    
@@ -1769,20 +1769,323 @@ label scenario_a_story_about_holly:
     holly "Aren't you at work tomorrow?"
     h_haley "Nope."
     holly "I don't know..."
-    h_haley "Please?"
+    h_haley a_5 "Please?"
+    "I draw my gaze away from my food and meet her eyes, she looks genuinely concerned."
+    holly "OK." 
+    "I mumble quietly, staring at my plate once again as my desire to eat leaves me."
+    h_haley "Did I get your favorites wrong?"
+    holly "Hmmm?" 
+    "I look up."
+    h_haley a_2 "The food, I was sure I'd got your favourites?" 
+    "She frowns a little, as if she's trying to remember something she forgot."
+    holly "No, you did a great job, all my favorites," 
+    
+    show h_holly b_1   
 
+    "I'm just...tired...I guess."
+    h_haley "Bed?"
+    "I can only nod in agreement as I tip the food into the bin and put my plate in the sink."
+    
+    hide h_holly
+    hide h_haley
+    with easeoutright
+    scene bg leona room dark with fade
+    show h_holly b_0 at left
+    show h_haley a_7 at centerleft
+    with easeinright
+  
+    "I follow Haley to her room and climb into bed as she holds the covers open for me, with a little encouragement I lay back against the pillows and take a deep breath. She settles into the chair next to her bed."
+    h_haley "Ok, now I'm right here, no-one is getting in without going through me first," 
+
+    show h_haley a_14
+
+    "She gives me a toothy grin I can't help but return" 
+
+    show h_holly b_10
+
+    h_haley "so lay back, close your eyes and try to drift off."
+    "I laugh a little and turn onto my side facing her, stifling a yawn as I realize just how exhausted I actually am."
+    h_holly b_2 "Thanks Sweetie." 
+
+    show h_holly b_1
+
+    h_haley "Sweetie, eh?"
+    "I see the brief glimmer of a huge smile etched on her face before my eyelids close completely and I drift off."
+
+    show h_haley b_9 at faceleft
+    with Fade(0.5, 0.7, 0.5)
+
+    show h_haley b_9 at faceleft
+    show h_holly b_4
+
+    "The time on the alarm reads 3:15am, I can't believe I've managed to sleep until now, a whole five hours! I look across at Haley, asleep, but still in her chair, just like she promised. I feel a pang of guilt when I note just how uncomfortable she looks, I shuffle slightly and her eyes open instantly."
+    h_haley b_8 "You ok?" 
+    "She croaks before clearing her throat." 
+    "I nod"
+    holly "You look really uncomfortable there."
+    h_haley "I'm fine, I've slept in worse places...and you're my main concern at the moment."
+    holly "And you're doing a great job of taking care of me, but I feel horrible looking at you scrunched up in that chair...especially when this is actually your bed."
+    h_haley"It's honestly fine Holly..." 
+    
+    show h_haley at right,faceright with move
+    
+    "She stands and stretches, wandering over to the window and opening it slightly"
+    h_haley "it's still throwing it down out there."
+    
+    show h_holly at Position(xpos = (placement_of(h_haley).xpos - 0.10)) with move
+    
+    "I climb out of bed and move over to join her; a pleasant shiver passes through my body as the sound of rain reaches my ears and I find myself leaning into Haley a little."
+    holly "Please get in bed, it doesn't feel right me being in there and not you...I'm happy to share if you are?"
+
+    show h_haley b_2
+
+    "She looks over at the bed and bites her lip softly, as though she's weighing up a huge decision."
+    holly "Please Haley..." 
+    "I beg. I may have only called her Haley once before, but the reaction I got was enough to tell me that that was how to get her to be more agreeable."
+    h_haley b_11 "Ok." 
+    "She sighs eventually, the smile I predicted playing on her lips."
+    
+    show h_holly at left
+    show h_haley at Position(xpos = (placement_of(h_holly).xpos - 0.10))
+    with move
+    
+    show h_holly b_1
+    show h_haley b_9
+
+    "I smile and climb back into bed, the mattress sinks down when Haley crawls in beside me, but other than that she barely makes a sound. I reach out and switch off the lamp, the sound of the rain outside and Haley's light breathing quickly lulling me back to sleep."
+    
+    title "The Bottom"
+    scene bg leona room day shut
+
+    "I wake the next morning to find myself snuggled closely into a pillow in the middle of the bed. Oh god...I must've rolled over in the night and tried to cuddle Haley...I grimace at the thought...she must have put the pillow here to stop me..."
+    "I drag myself out of bed with the intention of getting some warmer clothes on and maybe going for a walk but as soon as I look out the window I rapidly change my mind; the rain is still coming down in sheets."
+    "Instead I wander back to my room and freeze in the doorway...Haley is bent over my bed pulling a sheet into place...how is it that I've never noticed how nice her bum is before?"
+
+    scene bg connie bedroom clean day with dissolve_quick
+    show h_haley b_11 at left, faceleft
+    show h_holly b_4 at right, faceleft with easeinright
+
+    h_haley "Morning Holly," 
+    "She says without looking at me" 
+    
+    show h_haley b_15 at faceright
+
+    h_haley "How're you feeling today?"
+    holly "Oh, erm," 
+    "I start, tearing my gaze away from my new favorite view" 
+    holly "A lot better actually."
+    "I walk around her and pull some clothes out of my wardrobe."
+    holly "Thank you...for last night...I really appreciate it." 
+    "I fiddle absentmindedly with my sleeve."
+    h_holly b_1 "I haven't slept that well for weeks...and thanks for making my bed too."
+    h_haley "You're more than welcome."
+
+    show h_haley b_16 at Position(xpos = (placement_of(h_holly).xpos - 0.10)) with move
+
+    h_haley "Want to go for a walk in the rain?"
+    holly "It's worse than last night out there. We'll get soaked."
+    h_haley "So?"
+    holly "So, we'll get soaked."
+    h_haley "It'll be fine. We'll take that huge umbrella I borrowed from work."
+
+    show h_holly a_1
+
+    "I'm not convinced...but I smile and allow her to drag me from the house ten minutes later under the enormous umbrella she took from work."
+
+    hide h_holly
+    hide h_haley
+    with easeoutright
+
+    scene bg sadie livingroom day with fade
+    show h_bethany a_0:
+        zoom 0.5
+        yalign 0.7
+        xalign 0.75
+        faceright
+    show paul a_0:
+        zoom 0.5
+        yalign 0.7
+        xalign 0.85
+        faceleft
+    pause 0.0
+
+    show h_haley b_7 at center, faceleft
+    show h_holly b_4 at centerleft, faceright
+    with easeinright
+
+    h_bethany a_3 "Where the hell have you two been?"
+    "Bethany laughs, looking up from the TV."
+    h_haley "I thought Holly could use some fresh air." 
+    paul a_5 "And get pneumonia in the process!" 
+    "Paul interjects, his voice suddenly harsh."
+    holly "I can take a bit of weather Paul."
+    paul "That's not the point! We're meant to be taking care of you...not getting you even more sick!"
+    "Sick? They think I'm sick?"
+
+    show h_bethany a_6
+
+    h_haley a_3 "She's fine Paul." 
+    
+    show h_holly b_8
+
+    holly "You think I'm sick?" 
+    "Haley & Bethany" "Of course not!" 
+    "They both shrieked together"
+    holly "What about you?" 
+    "I ask Paul, my voice barely above a whisper" 
+    holly "Do you think I'm sick? That I need babysitting constantly in case I have a breakdown? That I'm so fragile I can't handle even the simplest task?"
+    paul "If you could handle the simplest task you wouldn't be in the state you are now!"
+    "He screams the last words"
+    
+    show h_holly a_4
+    
+    holly "If you hadn't tried so hard to push Erin on me when I clearly wasn't interested I wouldn't be in the state I'm in now!!!"
+    "He opens his mouth to speak but instead of the apology and words of comfort I was expecting he says nothing, just sits there looking at me, his eyes piercing and cold. A devastating silence fills the room, I can't believe we've reached this stage, I look at Paul, my best friend, my partner in crime, my soul confidant over the years and suddenly I don't even recognize him anymore."
+    
+    show h_holly b_9
+    
+    "Tears fill my eyes, I don't know where to go, or what to do, I push past Haley on my way out the door and head back out into the rain."
+    
+    show h_holly b_9 at right with move
+    show h_haley a_7 at faceright
+
+    h_haley "Holly-"  
+    "She reaches out a hand to try and stop me."
+    
+    hide h_holly with easeoutright
+    
+    "I ignore her and carry on, leaving without picking up the umbrella. Once outside I simply just start walking as fast as I can, not paying attention to where I'm going or who I'm walking in to."
+
+    scene h_bg cloud
+    show h_asset rainabove
+
+    "My vision blurs as a combination of tears and rain drops drip down my face, I can't get over Paul's reaction. I turn the corner into the park and crouch down under the nearest tree, this doesn't do much to keep the rain off me but at least provides a little shelter from the wind."
+    "I lean back against the tree and try to ignore the whirlwind of thoughts now flying through my brain, instead I hold out one hand and focus on the steady drip of water falling from it onto the ground underneath. How could he say those things? He's supposed to be my best friend..."
+
+    #longfade
+    scene h_bg cloud_dark with Fade(0.5, 0.7, 0.5)
+    show h_asset rainabove
+
+    "When I next take stock of reality it's almost dark, my clothes are so wet they fit like a second skin and rise up my arms and legs as I stand. I wince as blood flows back to my outer limbs and begin to stagger home..."
+    "By the time I arrive back at home I can't even feel my fingers and opening the door is next to impossible. I give up after only a few seconds of trying and land a feeble knock on the wood. The door opens instantly to reveal a relieved looking Haley half way into pulling on her coat."
+
+    scene bg sadie livingroom day
+    outfit h_haley coat
+    show h_haley a_7 at centerright, faceright
+    show h_holly b_7 at right, faceleft with easeinright
+
+    h_haley "Holly!"
+    "She exclaims, wrapping her arms around me tightly"
+    h_haley "Thank god you're home! I was just on my way out to find you. I've been so worried!"
+
+    show h_holly b_8 at left with move
+   
+    "I don't answer, I know she means well, I know she's just trying to help, but suddenly I find I'm so angry with her I can barely stand to be in her presence. I roughly push her away and head for the bathroom."
+    h_haley "Holly?" 
+   
+    show h_holly b_2 at faceright
+   
+    "I raise my eyes to look at her, one arm still in her coat as she slips her shoes off."
+    "{b}Just don't Haley, I'm too tired, I don't wanna hear it!{/b}"
+    
+    show h_haley a_9 at Position(xpos = (placement_of(h_holly).xpos + 0.10))
+   
+    h_haley "Hey!" 
+    
+    show h_holly b_8 at faceleft
+    
+    "She grabs my hand as I turn to walk away."
+    holly "I said don't!" 
+    "My voice rising to a shout"
+    holly "I know you all think I'm pathetic and feeble but I'm capable of getting myself a shower!"
+    h_haley "We don't think that, we-"
+
+    show h_holly a_4
+    
+    holly "Are you fucking deaf?!" 
+    "I scream manically."
+    show h_haley b_0
+    holly "Just leave me the fuck alone! I don't need your fucking help or your pity!"
+
+    hide h_holly with easeoutleft
+    scene bg rachel bathroom with swirl_transition
+    show h_holly b_9 at left, faceright
+   
+    "At last, in the bathroom. But my fingers are still so numb I can't get the door locked. I also can't get out of my clothes, the harder I try the more frustrated and upset I get. Soon the tears are flowing again and my loud sobs echo off the tiles around me as I slide to the floor."
+    h_haley "Holly?" 
+    "A tentative voice enquires from the other side of the door"
+    h_haley "Can I come in? Please."
+    "OK... *sniff*"
+    
+    outfit h_haley casual 
+    show h_haley a_7 at left, faceright
+    show h_holly b_9 at centerleft, faceleft
+    with move
+    
+    "Slowly the door opens and Haley slides into the room. She says nothing. She pulls me easily to my feet, helping me to pull my arms out of the top, and t-shirt follow soon after. Still without speaking she turns on the shower before helping me out of my jeans, leaving me standing there in my underwear."
+    
+    outfit h_holly bikini 
+    with dissolve_quick
+    
+    h_haley "Can you do the rest?"
+    holly "I can't undo my bra." 
+    "I cry pathetically as I try to lift my arms."
+    
+    show h_haley a_7 at center, faceleft
+    
+    "To her credit she simply walks around me and helps me to remove the fiddly item, then she encourages me into the hot water. My skin feels like it's on fire as the water hits."
+    h_haley "It's only luke warm, I promise."
+    "She sits on the side of the bath."
+   
+    "As the pins and needles slowly ease off I manage to slip my panties down my legs, I look over sheepishly at Haley but find she's looking the other way to give me at least some privacy. I struggle through washing myself with arms that feel like lead before switching off the water and stepping out of the shower."
+    
+    outfit h_holly nude 
+    with dissolve_quick
+
+    "Haley stands and wraps me a large fluffy towel, rubbing my arms to try to get the blood pumping better."
+    holly "I'm so sorry Haley..." 
+    holly "I don't deserve this kindness. *Sniff*"
+    h_haley "It's ok." 
+    "She replies as she continues to help me get dry, deliberately avoiding any particularly sensitive areas."
+    holly "{i}It's not.{/i}" 
+    h_haley "Holly, it's fine, I get it." 
+
+    show h_haley b_11 
+
+    h_haley "Can you finish up here?"
+    "I nod and shuffle the towel around taking in Haley's eyes wandering over my body before she leaves the room to allow me to finish."
+
+    hide h_haley
+    hide h_holly 
+    with easeoutleft
+    scene bg connie kitchen night
+    show h_holly b_8 at left
+    show h_haley a_7 at centerleft
+
+    "I leave the room with the intention of going to bed but Haley has other ideas, she drags me to the kitchen and puts a plate of food and a cup of tea in front of me, instructing me that I'm not leaving her sight until it's gone."
+    "It takes me well over an hour to finish it, but she sits patiently by my side until I'm done."
+    h_haley "Right," 
+    "she says taking the plate and cup from in front of me"
+    h_haley "You're free to do as you please now, I just wanted to make sure you ate."
+    holly "{i}Thanks.{/i}"
+    
 
     #-----------------------------------------------------------------------------------------------------------------
+    #Position(xpos = (placement_of(h_holly).xpos - 0.10)) with move
+
     scene h_asset sorrow
     scene h_bg star
     scene h_bg day
     scene h_bg dusk
+    scene h_bg cloud
     scene bg connie bedroom clean night
-    scene bg connie kitchen day
-    scene bg sadie livingroom day
+    scene bg connie kitchen day #/ night / evening
+    scene bg sadie livingroom day 
     scene bg sadie livingroom day blur
     scene bg connie bedroom clean dark
     scene bg connie bedroom blur
+    scene bg leona room dark
+    scene bg rachel bathroom
     #Lower xalign -> more to left
     #Lower ypos -> downwards
     placeholder
@@ -1803,3 +2106,10 @@ label scenario_a_story_about_holly:
     hide h_asset glass_7 with dissolve
     show white as flash:
         additive_flash(0.1)
+
+    #Livingroom sofa
+    show h_holly b_9:
+        zoom 0.5
+        yalign 0.7
+        xalign 0.75
+        faceright
