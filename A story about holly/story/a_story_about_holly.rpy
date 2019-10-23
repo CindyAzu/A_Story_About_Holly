@@ -2068,7 +2068,7 @@ label scenario_a_story_about_holly:
     "she says taking the plate and cup from in front of me"
     h_haley "You're free to do as you please now, I just wanted to make sure you ate."
     holly "{i}Thanks.{/i}"
-    
+    holly "testing laptop git commits"
 
     #-----------------------------------------------------------------------------------------------------------------
     #Position(xpos = (placement_of(h_holly).xpos - 0.10)) with move
