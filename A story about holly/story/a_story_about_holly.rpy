@@ -2943,6 +2943,77 @@ label scenario_a_story_about_holly:
     h_haley "Good." 
     "She kisses my cheek again and cuddles into my side, wrapping her arms around mine for good measure."
 
+    "We sat like that for at least an hour, our bodies gradually pressed closer together as we simultaneously shivered while watching the rain pour down on the garden. The clock had ticked round to eight-thirty before we parted and Haley headed off to her climbing session"
+
+    scene connie kitchen day with fade
+    #show holly and beth easeinright 
+
+    "I was still struggling to finish my tea when Bethany walked back in from work."
+    h_bethany "Hey Holly. How's today been, did you go to your session with Blaire?"
+    holly "Hey Beth, it's been OK thanks...and yes I went to my session."
+    h_bethany "What's with that voice? Was it that bad."
+    holly "No, it was fine...we talked about Haley again though."
+    h_bethany "You did?!" 
+    "Quick as a flash she pulls out the chair to my left and sits down next to me with an excited smirk on her face"
+    h_bethany "Tell me everything! Have you finally come to your senses?"
+    holly "Kind of yeah...well, maybe...not in so many word-"
+    h_bethany "Jesus Holly! Don't ever take up storytelling will you! We'll never get to the good stuff!"
+    holly "There isn't any 'good stuff'. At least not yet anyway. All that's happened is we've sat on the kitchen floor, held hands, talked a bit and sort of kissed...then Haley went climbing and I made a start at eating this."
+    h_bethany "But you're going to get to the good stuff soon, right?" She asks eagerly.
+    holly "I don't know. I don't want to fuck it all up, I mean, last time I checked she liked men Bethany. And I'm not saying she doesn't feel things for me, but I'm definitely not a bloke. I don't want to freak her out by going too fast."
+    h_bethany "Oh sweetie," 
+    "Bethany coos, tucking some hair behind my ear"
+    h_bethany "I love how worried you are about this, but trust me, that girl has wanted you for so long now that jumping her as soon as she walks back through that door wouldn't be too fast!"
+
+    scene connie bedroom clean dark
+
+    "I lay on my bed and think on Bethany's words for the rest of the evening, by the sounds of things she's spoken to Haley about this a lot...which means that maybe Haley was just nervous earlier and was expecting more kissing that conversation...perhaps I might actually be over thinking this."
+    "A glance at the clock tells me that Haley will be home soon, maybe I should be there to greet her..."
+    with fade
+    #transition
+
+    "The sound of a key turning in the lock brings my focus back to the present, I look up as the door opens and Haley walks through it."
+
+    #scene hallway 
+
+    "I stand from my spot on the bottom step as she enters the cramped hallway and she jumps, clearly not expecting me to be waiting for her."
+    h_haley "Jesus Holly! You scared me half to death! What're you doing sitting in the dark?"
+    holly "I- well, I was waiting for you...it's something Bethany said...sorry...I- I'll go back upstairs..." 
+    "I stammer, turning back to the stairs, my face burning in embarrassment."
+    h_haley "No, don't!" 
+    "She shouts, pulling off her coat"
+    h_haley "Come here."
+    "She pulls me into the front room and sits down on the sofa, dragging me with her."
+    h_haley "You don't have to be embarrassed to be waiting for me you know." 
+    "She smiles, cupping my still burning cheek in her cool palm."
+    holly "I was going for some sort of romantic gesture, but it's been that long since I've...you know...I just froze when you walked in."
+    h_haley "Maybe you should try again."
+    "A cheeky grin spreads across her lips and I notice her skin is wet from the rain still falling outside."
+
+    "I reach out and cup her face between my hands, my thumbs sweeping the water from her cheeks as I lean in and kiss the soft, damp skin. I pull away from her slightly and see her eyes widen. Not giving her more time to think I gently press my lips to her other cheek, her hands ball into nervous fists and she lets out a shaky breath."
+    "Tilting my face to Haley, I nuzzle my nose against hers and she sighs quietly, I reach down and take her hands in mine, surprisingly she resists at first but the closer my lips get to hers the more relaxed she becomes."
+    "I gently touch my lips to hers and then allow them to hover only millimeters away, leaving Haley to make the next move. She licks her lips slowly and tentatively edges closer once more, her fingers lace into mine before our lips meet again. I squeeze her hands reassuringly and she leans clumsily into my body, the kiss deepens and I slide the tip of my tongue over her bottom lip. Her mouth opens just enough to allow me access and she moans quietly, I don't think I'll ever get over hearing that noise come out of her mouth, I wrap my arms around her waist and pull her body flush against me."
+    holly "Is this OK?" 
+    h_haley "More than OK." 
+    "She smiles, the expression etched on her face melting my heart...I can't believe I've been so blind to this."
+    "Haley's grin widens, her hands cup my cheeks and suddenly we're a mash of lips, teeth and tongues. She moans as I press against her and push her down into the sofa, my fingers fumble with the zip on her jacket as I try desperately to remove it from her body, her fingers come to my jumper and we share a quiet laugh as we simultaneously find ourselves tangled together. The pause is kept brief as we shed clothes and resume kissing fiercely, I slide my knee between her thighs and am just about to trail my lips down her neck when I feel her hands on my shoulders, pushing me away."
+    holly "Shit! Sorry Haley," 
+    "I stop instantly and sit up" 
+    holly "I got carried away, I forgot this was all new to you...and we're meant to be taking things slow..."
+    h_haley "It's not that..." 
+    "She blushes"
+    h_haley "Well OK, so maybe it is a little bit...but I was kind of thinking maybe...would y-" 
+    "she clears her throat" 
+    h_haley "Would you like to take this somewhere more comfortable?"
+    holly "Only if that's what you want." 
+    "I smile and kiss her again."
+    "She laughs and her smile widens" 
+    h_haley "I've dreamt of asking you that for months, it's definitely what I want."
+    "She takes my hand and leads me upstairs to her room."
+    #hide easeout etc
+    
+
+
     #-----------------------------------------------------------------------------------------------------------------
     #Position(xpos = (placement_of(h_holly).xpos - 0.10)) with move
 
