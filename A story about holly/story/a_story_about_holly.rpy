@@ -2540,14 +2540,417 @@ label scenario_a_story_about_holly:
     holly "try and go to sleep sweetheart. We'll talk about it more tomorrow."
     "I roll over so I'm flat on my back and Haley rests her head on my stomach, just below my breasts. Her fingers grip my shirt and I resume drawing patterns on her back in an attempt to calm her enough that she can drift off to sleep. I'm so pissed off with Dominic that I could use some time to sleep it off too, I'm almost certain that Haley wants to end things with him but I can't let her do it based on my feelings on the situation."
 
+    scene black with fade
+    scene bg connie bedroom clean day
+
+    "The sound of my alarm going off wakes me early the next morning. I reach over to switch it off and look across at Haley, she had rolled over in the middle of the night and was still snoring gently beside me. Her t-shirt had ridden up slightly during the night revealing her perfectly flat stomach and creamy white skin. It took a serious amount of willpower to resist reaching out and touching it."
+    holly "Haley." 
+    "I whisper, gently shaking her shoulder" 
+    holly "Haley, wake up sweetheart, it's time for work."
+    h_haley "Hmmm...noooo..." 
+    "She moans" 
+    h_haley "not today."
+    holly "Haley come on, it's Friday, just eight hours to go and it's the weekend."
+    h_haley "Nooo..." 
+    "She moans again, pulling the duvet firmly over her head."
+
+    "I didn't spend too much time trying to convince her to get up, I knew I was fighting a losing battle and to be honest, I didn't blame her for wanting to stay in bed. Before I left I set her another alarm in case she was feeling up to going in to work later, placed some paracetamol and a glass of water on the bedside table for her and cleared a path to the door so there was less risk of her falling over her shoes again."
+
+    scene h_bg day with dissolve 
+    
+    "My day at work passed slowly, I texted Haley at lunchtime but received no response. Bethany and Paul hadn't heard from her either."
+    "The mountain of paperwork I was working through felt never ending as I willed the clock to tick round to clocking off time."
+
+    scene h_bg dusk with dissolve 
+
+    I finally walked through the door after a long day and a horrific journey home expecting to find Haley downstairs. I looked everywhere for her before heading upstairs to get changed, I poked my head around her bedroom door to find her bed still perfectly made and the room deserted.
+
+    scene connie bedroom clean day 
+    
+    "Assuming she was either at work or climbing I pushed open the door to my room and started unbuttoning my shirt, ready for comfy clothes and some food...I nearly had a heart attack when my duvet started moving and Haley's mess of blonde hair came into view."
+    holly "Have you been there all day?" 
+    "I ask incredulously."
+    "She nods and holds her arms out to me, her eyes round and pleading...how the hell does Dominic not find her irresistible?!"
+    h_haley "Please Holly..."
+    "I slip out of my shirt and replace it with a hoodie before walking across to her and pulling her in close."
+    h_haley "I- I'm so sorry about last night," 
+    "she mumbles against my chest" 
+    h_haley "I shouldn't have kissed you, it wasn't right, I was drunk an-"
+    holly "Haley it's fine, honestly, let's just forget about it OK?"
+    "She takes one slow deep breath but otherwise doesn't make a sound as I wrap her more tightly in my arms and hold her tight."
+    holly"You fancy something to eat?" 
+    "I ask as my stomach starts to grumble some fifteen minutes later."
+    "She nods her head and loosens her grip enough that I can move away from her."
+    h_haley "I think I've got some leftovers in the fridge that we can just warm up."
+    "I step backwards and breathe a sigh of relief as I finally manage to get my tight work trousers undone. Her eyes follow me across the room as I pull out a pair of shorts and quickly make the swap."
+    holly "Coming?" 
+    "I inquire, standing in the doorway and holding out a hand to her." 
+    h_bethany "Think about it, she steals your favorite shirt...the one that you went mental about when I thought I might have accidentally shrunk it in the wash...and wears it almost constantly, even when she's with Dominic...which I know pisses you off so much you could punch something...yet you just let it slide and say nothing because she's Haley and you'd do anything for her."
+    h_bethany "She came home last night absolutely devastated about Dominic and your bed was the only place she wanted to be. I was home too last night, Paul's away, she could've come and got in bed with me...because let's be honest, I give amazing cuddles...but no, she wanted you...and I bet she just held her arms out and you went running-" 
+    "I feel my cheeks flush" 
+    #holly blush
+    h_bethany "because you just can't help yourself...and she'll have been there with the puppy dog eyes, desperate for you to hold her, because she lo-"
+    #show haley easein
+    "She stops abruptly as we hear a bang and a gasp of pain come from the hallway, she opens the door as the microwave pings to find Haley stood rubbing her knee."
+    h_haley "That bloody table! I walk into it every time...I think I might still be a little bit drunk too you know..."
+    h_bethany "Please tell me you're going to end whatever this is with him." 
+    "Bethany says sympathetically as she pulls Haley into the room and sits her down at the table"
+    h_bethany "He's about as decent a human being as bloody Erin!" 
+    "She glances over at me and I frown at her."
+    h_haley "Maybe we should introduce them to each other." 
+    "Haley mumbles through a mouthful of food."
+    h_bethany "They'd be well suited..." 
+    "Bethany agrees, taking her dinner from the microwave and sitting beside her"
+    h_bethany "Although not as well suited as the people they were with..."
+    "Haley coughs and chokes on her food while I turn bright red and turn my attention back to the microwave."
+    h_bethany "So," 
+    "Bethany continues, completely unabashed"
+    h_bethany "What is the plan with Dominic?"
+    h_haley "I don't know,"
+    #haley sad 
+    "Haley shrugs, her eyes still streaming"
+    h_haley "I know I should end it...but I kind of want to do it in some big, dramatic, public fashion where he looks like the complete tosser he is." 
+    "She pauses and I take the seat across from her" 
+    h_haley "Then once I've done that maybe I'll get with Holly..."
+    #holly blush 
+    "She winks at me and grins, while I look down and blush again."
+
+    title "Revelations"
+
+    scene connie kitchen day
+    #show holly 
+
+    "The night before my final exam."
+    "I was sitting in the kitchen with my notes spread across the table, my head in my hands, fingers rubbing circles on my temple in an attempt to stop the incoming headache, when a quiet voice filtered in from the doorway."
+    temp_char "Wow...this looks like fun..."
+    #show haley with dissolve?
+    "I look up as Haley comes in from her run, her face slightly red, a small bead of sweat running down her chest between her breasts. She sweeps her hair back from her face,"
+    h_haley "Want some help?" 
+    #very smiley haley
+    holly "Depends, how much do you know about psychology? #cheeky" 
+    h_haley "Not a lot," 
+    "She laughs, moving to stand behind me" 
+    h_haley "But I can take over that head massage for you if you like?"
+    "Her fingers come to rest lightly on the top of my head and she moves my hands gently out of the way."
+    h_haley "Close your eyes and relax Holly." 
+    "She pulls my chair away from the table and runs her nails lightly over my scalp, sending shivers down my spine" 
+    h_haley "Trust me, I know what I'm doing." 
+    holly "That's nice." 
+    "I breathe, dropping my pen on the table and sighing deeply as I lean back in my chair."
+    "She presses more firmly and I feel my concentration start to wane, she wasn't lying when she said she knew what she was doing. Her thumbs press against the top of my neck and push gently outwards causing me to sink down into my chair."
+    "Slowly her attention shifts from my scalp down the back of my neck and across my shoulders and I lose myself completely."
+    with fade
+    #transition
+    "What must be hours later I feel her move round to my left and her fingers gradually leave my body."
+    h_haley "Better?" 
+    "She whispers against my ear."
+    holly "Mmmm." 
+    #holly closed eyes
+    "Her fingers run down my arm before she suddenly straddles my lap and wraps her arms around my neck."
+    holly "Jesus!" 
+    "I laugh in surprise, opening my eyes to find her grinning at me" 
+    h_haley "Is this how you plan on getting rid of me, getting me nice and relaxed then scaring me to death?"
+    h_haley "I could think of worse ways to go." 
+    "She leans in closer"
+    h_haley "Do I smell bad?"
+    "I tilt my head to her neck and sniff" 
+    holly "Not really."
+    h_haley "Good." 
+    "She whispers, nudging her nose against mine and leaning fully into my body" 
+    h_haley "You'd better ace this exam now I've put all this effort in."
+    holly "I'll try my best." 
+    "I yawn and glance at the clock" 
+    holly "I should get ready for bed really; it starts at half nine. I don't wanna be sat there falling asl-"
+    "The front door slams open."
+    #sound door.mov dominic easein
+    dominic "Haley!" 
+    "Dominic's voice booms down the hallway."
+    h_haley "Shit!" 
+    #haleyeaseout
+    "She jumps up off my lap and heads to meet him."
+    dominic "What the fuck does this mean?!" 
+    "He shouts angrily."
+    h_haley "It means exactly what it says it means!" 
+    "Haley shouts back"
+    h_haley "I'm not arguing with you about this here, you want to talk about it, we'll go somewhere else and talk about it. I'm not having you dragging this shit out in my house!"
+    dominic "Fine!!! I'll be outside. This is not over!!"
+    h_haley "Argh!!" 
+    "She screams into the empty hall before storming back into the kitchen"
+    #easeinhaley 
+    h_haley"As you probably just heard, I'm off out for a while." 
+    h_haley "Don't wait up, don't worry, go to bed and get some sleep, smash your exam and I'll see you tomorrow when I get home from work. OK?"
+    holly "Ok." 
+    "I nod bewilderedly."
+    #easeout 
+    h_haley "Promise?"
+    "She screams into the empty hall before storming back into the kitchen"
+    #easein
+    holly "Promise."
+    h_haley "Ok great, I'll see you tomorrow." 
+    "She smiles and pecks my cheek" 
+    h_haley "Bye baby."
+    "Baby? Where the hell did that come from?"
+
+    scene bg connie bedroom clean dark with fade
+
+    "I broke my promise that night."
+    nvl_clear 
+    nvl_narrator "I just couldn't fall asleep knowing that Haley was out with Dominic after their slanging match earlier, the fact that they'd gone in separate cars was all that kept me from getting myself overly worked up."
+    nvl_narrator "It was just after midnight when she finally came home, I wanted desperately to climb into bed next to her, but I knew she'd be furious I was still awake. Instead I contented myself with knowing she was home and safe and managed to drift off."
+    
+    scene h_bg day 
+
+    nvl_narrator "Overall my exam the following morning went well, I was desperate to make sure Haley was OK but managed to force myself to concentrate for the duration of the exam. I drove home as calmly as I could and spent the rest of the day lounging in the sun, drinking beer and reading my new book."
+
+    scene bg sadie livingroom day
+    #show bethany holly easein
+
+    h_bethany "Hey Holly!" 
+    "Bethany shouts, running across the room and jumping on me" 
+    h_bethany "How was your exam? You look like you're enjoying being finished!"
+    holly "It went well thanks...and yes, I'm loving being finished...I'm half way to hammered already." 
+    "I grin and indicate my beer."
+    #easeinpaul
+    paul "Well then we'd better join you!" 
+    "Paul yells, a box of beers materializing from nowhere."
+    paul "Cheers!"
+    #easeinhaley 
+    h_haley "Hi guys!" 
+    "Haley wanders over and pulls another beer out of the box."
+    h_bethany "When did you get back?" 
+    "Bethany asks, surprised"
+    h_bethany "We didn't see you."
+    h_haley "I pulled up literally as the front door closed." 
+    "She laughs, laying down in the sofa next to me."
+    h_haley "But you two were too busy touching each other up to notice me."
+    paul "Ah well, we're all home together now...and there's beer...so all's well that ends well."
+    holly "Definitely." 
+    #holly grin?
+    "I grin and raise my bottle."
+    
+    with fade
+    #transition
+    
+    "A few blurry hours later Haley and I were sat chatting in the front room watching something random on tv. Bethany and Paul had gone to bed, both nursing sunburn and sore heads."
+    holly "So, what happened with Dominic yesterday?" 
+    "I ask as casually as I can manage."
+    h_haley "He asked me to move back in with him."
+    holly "Oh..." 
+    "My heart drops."
+    h_haley "Yeah...but I turned him down."
+    holly "You did?"
+    h_haley "I did," 
+    #haleygrin
+    h_haley "it's funny really, as soon as I said I wanted to end things he turned into this really sympathetic, nice guy. Like his personality just switched instantly. But I don't love him, hell, most of the time I don't even like him that much. I only got back with him to try and prove to myself that I wasn't in love with someone else."
+    "Oh crap! I'd forgotten all about Haley's feelings for Paul!"
+    holly "Did it work?" 
+    "I ask quietly, hoping that her answer doesn't spell drama for Paul and Bethany."
+    h_haley "Not even a little bit." 
+    #sad haley 
+    holly "I don't really know what to say to that."
+    h_haley "Why, do you think this person doesn't love me back?" 
+    "She asks, raising an eyebrow at me."
+    holly "Well..." 
+    "I pause, trying to think of the least harsh way of putting things" 
+    holly "I think maybe they could do, in future, if their current relationship breaks down, but they're happy now so maybe you might want to think about it before you make any mov-"
+    h_haley "What current relationship?" 
+    "She interrupts quickly, an unbearably heartbroken look appearing on her face" 
+    h_haley "They aren't in one as far as I'm aware!"
+    holly "What? Ok, now I'm really confused. Who are you talking about?"
+    h_haley "Jesus Holly!" 
+    "She shouts exasperatedly"
+    #add many expressions for god sake
+    h_haley "I'm in love with you damn it!"
+    "I stop talking in surprise and a deafening silence fills the space between us."
+    holly "You...you love me?" 
+    "I ask quietly."
+    "Her eyes meet mine and she nods slowly."
+    holly "But I...I..." 
+    "I can't even finish that sentence, those seven words repeat over and over in my mind. She can't be in love with me..."
+    holly "I thought you loved Paul?"
+    h_haley "What?!" 
+    "She asks incredulously"
+    h_haley "Why the hell would you think that?"
+    holly "Well...erm...bec-"
+    h_haley "I love you Holly." 
+    h_haley "I actually thought maybe you loved me too?" 
+    "She pauses hopefully but I'm still so stunned by her admission that words just won't come out. The pain caused by my silence fills her face and my heart seems to shrivel up under my ribs."
+    h_haley "I can't believe you haven't noticed..." 
+    "She continues, her voice starting to shake" 
+    h_haley "Unless...unless you have and you just haven't said anything because you don't feel the same way?"
+    "A lone tear drips down her cheek as we sit staring at each other, I run my fingers through my hair and look away from Haley to the window, was Bethany right, have I really missed this?"
+    #EASEOUT VERY QUICKLY MBY ANIMATION??? VERY FAST ZOOM ZOOM 
+    "Without warning she turns and practically runs from the room, grabbing her coat as she goes."
+    holly "Haley...wait!" 
+    "I run after her but only get as far as the front door as it slams in my face."
+    holly "For fucks sake!" 
+    "I curse into the empty hallway and throw myself onto a step at the bottom of the stairs, my head in my hands."
+    "She can't be in love with me, she's straight for god's sake! And surely I would've noticed if I was in love with her?"
+
+    title "Session"
+    scene bg corporate lobby small 
+    #show blaire + holly
+
+    "One week later. My latest session with Blaire."
+    h_kisaragi "So Holly," 
+    "Blaire smiles, tuning to a new page in her notebook"
+    h_kisaragi "How've you been?"
+    holly "OK I guess." 
+    "She looks up at me curiously and leans back in her chair"
+    h_kisaragi "OK. Where would you like to start today?"
+    holly "I don't know really," 
+    "I sigh, my gaze dropping to the floor" 
+    holly "Where would you like to start?"
+    h_kisaragi "Why don't we start with what's bothering you?" 
+    #smile
+    holly "Haley told me she's in love with me." 
+    h_kisaragi "Is that not a good thing?" 
+    "She asks, her eyebrows raising in surprise."
+    holly "Well yes...I mean, maybe...or not really...I don't know..."
+    h_kisaragi "Do you feel the same way?" 
+    holly "I don't know..." I sigh again "I fucked it up anyway when I didn't say anything, so I guess it's pointless to worry about it now."
+    h_kisaragi "Holly, look at me." 
+    "Begrudgingly I tear my gaze from the floor."
+    h_kisaragi "I want you to take a few minutes and think about this, think about Haley and then tell me how you feel."
+    "I close my eyes, take a deep breath and cast my mind back over the last twelve months to the day I met Haley..."
+
+    scene black with fade
+    nvl_clear
+    nvl_narrator "We had always gotten on well, that much was definitely true...and I had always thought she was gorgeous, again, definitely true, but that didn't mean she loved me...or I loved her, in fact, if anything that had made me even more aware that she was straight, the last thing I needed at the moment was to fall in love with a straight girl, that was one cliché I was determined not to apply to myself."
+    nvl_narrator "I take several more deep breaths and try to focus on past events, most of the last year had been a blur of depression, anxiety and misery. But then...there was that day she walked in to find me sat sobbing on the living room floor...I remember the look on her face when Paul took over from that hug, I thought she was jealous it was me in his arms and not her...apparently not. Then that same night she came home with all my favourite things from the Chinese but had never actually asked me what I liked...she just knew. I remember the cuddles on the sofa and sharing her bed while I was getting over the nightmares, how worried she was when I spent that day at the park in the rain and how she took care of me that night...the look of utter devastation on her face when she thought there was someone else...fucking hell! I'm actually blind!"
+    nvl_narrator "This revelation still doesn't cover my feelings towards Haley though, do I love her? If I've been blind to how she feels about me then it's entirely possible I've just ignored my feelings towards her...thinking about it, I've actually ignored my feelings towards a lot of things over the past twelve months, it was much easier to bury them than it was to acknowledge them..."
+    nvl_narrator "I loved seeing her smile, I loved cuddling up with her on the sofa, sharing a bed with her had been a real comfort over the past few months, both physically and emotionally...then there's the fact my heart races every time she walks into the room..."
+
+    scene bg corporate lobby small
+
+    "I open my eyes, run my fingers through my hair and lean back in my the sofa."
+    holly "Why does everything have to be so bloody complicated?!" I whisper.
+    h_kisaragi "I take it that means you've realized that perhaps you do love this girl then?" 
+    "Blaire asks, the corners of her mouth twitching slightly."
+    holly "You knew?" 
+    "I ask somewhat angrily."
+    h_kisaragi "Holly,"
+    #smile
+    h_kisaragi "you've been coming to see me for over a year now and a huge part of my job is watching my patients' body language. Whenever we talk about Haley your whole aura seems to change, and no matter how desperately you tried to hide these feelings your face gave you away every time. The only question now is what you're going to do about it?"
+
+    title "How Long?"
+    scene bg sadie livingroom day blur with fade
+    
+    "September."
+
+    "It had been three months since Haley had told me she loved me and it felt as though our relationship had changed forever."
+    "Outside my love life I'd got my degree results and had managed by some miracle to achieve First Class Honors! I was down to seeing Blaire once every three weeks and hadn't cried at all in the last two sessions, I even joined a women's football team and played a game most weekends."
+    "But it just wasn't right without Haley. We still spoke on a daily basis but it was strained and unnatural, that one four letter word was causing a chasm between us and I hated it. I wanted her to be there in the crowd when I played football, I wished she'd been there at my graduation. I missed her cuddles and hearing her talk about her day at work, or her friends...I missed seeing her walking around in my t-shirt."
+    "Outwardly I was fine, but inside I was crumbling. I wanted my friend back."
+
+    scene bg corporate lobby small with fade 
+
+    title "Session"
+    #show holly + blaire
+    h_kisaragi "-Holly, are you with me?" Blaire asks.
+    holly "Er...maybe...can you repeat the question?"
+    "She sighs and puts her notepad on the table beside her."
+    h_kisaragi "How's Haley?"
+    holly "I don't know to be honest." 
+    h_kisaragi "And how's Holly? Give me the truth this time please."
+    #holly cry
+    holly "She misses Haley." 
+    "I sniff as my eyes start to well up."
+    h_kisaragi "Does she think it might be time to let herself be happy? To push through the fear and tell Haley that she loves her too?" 
+    holly "Y- yes..." 
+    "I sob."
+    h_kisaragi "Here Holly," 
+    "I look up at the familiar box of tissues being held out in front of me"
+    h_kisaragi "Take one."
+    holly "Thanks." 
+    "I smile as best I can through the tears."
+    h_kisaragi "Right, now I want you to go home and tell that girl you love her."
+    holly "I lo- love her? Y- y- you want me to open with that?"
+    h_kisaragi "Open with whatever you like, the weather, last night's TV, a joke...the most important thing is that you're honest. Look at what denying this feeling is doing to you, how stifling it is keeping it all inside." 
+    "She gestures to my current state."
+    holly "You're right," 
+    "I nod, standing up" 
+    holly "I can't cope like this anymore. Even if she rejects me and breaks my heart, at least I can get over that in time instead of just spending all my time not knowing."
+    h_kisaragi "Exactly." 
+    #smile
+    h_kisaragi "If you don't try you'll never know."
+
+    scene connie kitchen day with dissolve
+    #easeinholly 
+
+    "I walk in after training and head for the kitchen to put my water bottle in the sink to wash later. I'm about to head upstairs and jump in the shower when I spot Haley sitting alone next to the open back door. I had intended to speak to her as soon as I got home from seeing Blaire but she was out when I returned."
+    "I bite my lip and hesitate slightly before walking over to her."
+    holly "Hi there, is it OK if I join you?"
+    h_haley "If you want." 
+    "She replies without looking at me."
+    "I sit down and lean against the opposite side of the door frame."
+    holly "So, I went to see Blaire this morning."
+    h_haley "How did that go?" 
+    "She asks, turning to face me."
+    holly "She er," 
+    "I stammer" 
+    "She was pretty blunt, well, more so than normal anyway...I guess you could say she's fed up of how clueless I've been for the past few months."
+    h_haley "She's laughing at me as well then?!" 
+    "Haley snaps in a harsh tone that doesn't quite cover the hurt and embarrassment in her voice."
+    holly "No! Not at all," 
+    holly "No one's laughing at you I promise. It's me that everyone's annoyed with. She's fed up of how clueless I've been about my feelings. Just like Beth...and Paul...and you. I'm so sorry Haley, I never meant to hurt you."
+    h_haley "That's OK Holly," 
+    "She sigh"
+    h_haley "It's not your fault you don't feel the same way I do. Maybe one day I'll get over you."
+    "I look up at her to see her eyes welling with tears."
+    holly "I never actually said didn't feel the same way..." 
+    "I mumble"
+    holly "And I really, really, don't want you to get over me."
+    "I run my fingers up her calf and she raises a puzzled eyebrow at me."
+    holly "I miss you Haley, but I don't want things to go back to the way they were before...I want them to go forward...to a better place than they were before...if you know what I mean?"
+    "I can see the slight beginnings of a smile starting to show on her face when she realizes what I'm doing a terrible job of trying to say."
+    h_haley "Really?"
+    holly "Really." 
+    #holly grin
+    "Her smile widens and she rests her hand on top of mine as she looks back out across the garden. Gathering my courage, I slowly turn my hand over and lace my fingers through hers. Her grip instantly tightens in a reassuring sort of way and I slide across to sit beside her."
+    holly "I did notice some stuff you know." 
+    holly "All those months ago..."
+    h_haley "Hmmm?" 
+    "She looks questioningly at me"
+    h_haley "What did you notice?"
+    holly "Well, unfortunately nothing that would've prevented what's happened."
+    holly "But I noticed you were gorgeous; I couldn't believe I didn't remember you when we met last year! I noticed you were smart and funny and you made me forget about all the shit stuff that happened. I noticed how safe I felt in your arms at night and how much I missed you during the day...but then I remembered that we were friends...and you were straight...I refused to risk losing you by trying to start something."
+    h_haley "I understand that Holly."
+    #sadsmile?
+    h_haley "To be honest, I'm still really confused about everything. I mean, I know I love you, but it's like, does this make me a lesbian now? I've never had these feelings for a woman before. It took me ages to accept what that little voice in my head kept telling me, that I loved you more than I'd love someone who was just a close friend and the thought of losing you stopped me from trying anything too. But what I do know," 
+    "She grips my hand tighter" 
+    h_haley "Is that I would never just walk away from you...I'm way too attached."
+    "Looking into her eyes I see nothing but honesty in her expression."
+    "She licks her lips nervously and takes a shaky breath before leaning in closer. Following her lead, I meet her half way and she presses her lips to mine."
+    holly "We don't need to add any labels to anything." 
+    "I whisper" 
+    holly "To you, to me, to whatever this might or might not turn into. But I need you to promise me one thing..."
+    h_haley "Anything." 
+    "She whispers, looking up at me with puppy dog eyes."
+    holly "I need you to promise that you'll tell me if you decide you don't want this...as soon as you decide you don't want it...I've done break-ups before and they're awful. But you mean so much to me I don't think I co-"
+    h_haley "Holly, stop." 
+    "She puts a finger to my lips and shakes her head"
+    h_haley "I feel the same way, the thought of losing you is almost unbearable...but at the same time, I'd be gutted if we didn't try this...I want to be with you...if you want to be with me?" 
+    "I pause, my heart racing beneath my ribs. I want to just say yes, to just let myself fall so deeply in love with her that the thought of not being with her is laughable, to kiss her and hug her for no reason other than I feel like it...to take her to bed and show her what great sex feels like..."
+    "But I'm scared, I'm terrified that things will change or I'll fuck everything up and lose her...and even though I trust her, I'm terrified of letting her in and her ripping my heart out..."  
+    holly "I-" 
+    h_haley "It's OK Holly." 
+    "She smiles and kisses my cheek" 
+    h_haley "I can practically hear the thoughts whizzing round in your head."
+    holly "It's not that I don't want to,I'm just sc-"
+    h_haley "Scared... But...since I'm scared too...shall we just take it slow, see how it goes and be scared together?"
+    holly "I- yeah...I'd like that." 
+    h_haley "Good." 
+    "She kisses my cheek again and cuddles into my side, wrapping her arms around mine for good measure."
+
     #-----------------------------------------------------------------------------------------------------------------
     #Position(xpos = (placement_of(h_holly).xpos - 0.10)) with move
 
-    scene h_asset sorrow
     scene h_bg star
     scene h_bg day
     scene h_bg dusk
     scene h_bg cloud
+    scene bg corporate lobby small
     scene bg connie bedroom clean night
     scene bg connie kitchen day #/ night / evening
     scene bg sadie livingroom day 
