@@ -2068,7 +2068,215 @@ label scenario_a_story_about_holly:
     "she says taking the plate and cup from in front of me"
     h_haley "You're free to do as you please now, I just wanted to make sure you ate."
     holly "{i}Thanks.{/i}"
-    holly "testing laptop git commits"
+    "I'm actually not sure what to do now, I feel lost again without something to focus on or someone telling me what to do. I look aimlessly around the room trying to find inspiration, but all I can focus on is Haley stood at the sink washing up. A fresh wave of guilt washes over me as I watch her, she's been nothing but kind to me, taken better care of me than anyone else and yet she's the one I've sworn at and shouted at..."
+    show h_holly at Position(xpos = placement_of(h_haley).xpos - 0.15) with move
+    "I stand up and walk across to her, pulling her hands out of the soapy water to give her the biggest hug my numb arms can manage."
+    holly "I'm sorry Haley, there's no way you deserve the way I've treated you this evening. You've been nothing but kind to me and I've been an ungrateful bitch."
+    h_haley "It's OK Holly," 
+    "she whispers, the water from her hands and forearms soaking through my hoodie as she holds me tighter"
+    h_haley "You've been through a lot the past few days. All I want is for you to feel better."
+    holly "I don't understand why you care so much, you hardly know me. I should be the least of your worries."
+    h_haley "Well I...I just...we're friends aren't we? You should take care of your friends." 
+    "She pushes me away gently and I notice her cheeks look flushed"
+    h_haley "Let me finish up here and we'll watch a movie or something OK?"
+    holly "OK." 
+    "I nod."
+    
+    scene bg sadie livingroom day with fade
+    show h_holly b_2 at centerright, faceright with easeinleft
+    
+    "I wander into the front room but change my mind when I realise that there's a good chance I'll have to see Paul at some point. I turn around to backtrack into the kitchen and walk straight into Haley coming the other way."
+    
+    hide h_holly b_2 at faceleft with easeoutleft
+    scene bg sadie livingroom day blur 
+    
+    h_haley "Changed your mind?" 
+    "She smiles"
+    holly "No," 
+    "I smile back," 
+    holly "but can we watch somewhere else? I don't want to see Paul." 
+    h_haley "No problem, go get settled in my room and we'll watch in there, any preferences?" 
+    "I shake my head" 
+    holly "Paranormal Activity?"
+    h_haley "Definitely not...unless you fancy spending the night with me clinging to you."
+    holly "I could think of worse things." 
+    "She grins and tilts her head suggestively at me...I say nothing, unable to decide if she's joking or not" 
+    h_haley "How about Despicable Me then?" 
+    "She continues when I remain silent."
+    holly "Sounds good." 
+    #holly sleeping
+    scene bg leona room dark
+    show h_holly b_2 at left
+    show h_haley a_13 at centerleft
+
+    "Ten minutes later we're laid together under the covers on Haley's bed in an uncomfortable silence, I shuffle down and rest my head on the pillows...a fatal mistake as my eyes instantly start to close."
+    "I jerk awake only five minutes later to find Haley looking down at me."
+    holly "Sorry." 
+    "I mumble sheepishly."
+    "She pulls my pillow into her side and encourages me to lay down again" 
+    h_haley "Rest your head here." 
+    "She pats the pillow and I slowly lay down."
+    #haley expression 
+    "Her expression is unfathomable while I adjust my position and try to get comfy, but as soon as she deems I'm sorted, what's bothering her becomes clear quickly."
+    h_haley "Is this the worst it's been?" 
+    "Looking anxiously down at me as she brushes her fingers through my hair."
+    "I pause for a few seconds and contemplate my answer. Shaking my head slowly, I take a deep breath and reveal what I've never told another soul."
+    holly "I thought about suicide once..."
+    h_haley "Oh Holly." 
+    "Haley gasps and gives me a worried look" 
+    h_haley "When?"
+    holly "Before I started seeing Blaire." 
+    holly "I was driving home after a shit day at work, my anxiety was through the roof. Then I got to the road by the river and suddenly all I wanted to do was just drive off the edge and into it, it would've been so easy." 
+    "I pause slightly"
+    holly "In fact, for those few seconds, when I had that thought, I felt at peace somehow, you know? The anxiety was gone, it faded away instantly, as though my mind knew that that was the answer..."
+    h_haley "What stopped you?" 
+    "She asks quietly, her fingers still tangled in my hair."
+    "I realized it was a blind bend and I was on the wrong side of the road. I didn't want to risk hurting someone coming the other way when I flew off the edge. Taking my own life would've been one thing, but the idea of taking out someone completely innocent was a whole different ball game...and I decided that I really didn't want to die..."
+    #haley expression tears??
+    "I look up at Haley and see her eyes welling with tears."
+    holly "Hey," 
+    "I sit up, wrapping my arm around her shoulders" 
+    holly "It's OK, I'm not there anymore, no one got hurt and I only thought about it once...it was actually that thought that made me decide to get help."
+    h_haley "Why didn't you tell anyone Holly?" 
+    "Her hands shaking a little as she wipes her eyes" 
+    h_haley "I knew you'd been down but I had no idea it was that bad."
+    holly "I don't know." 
+    "I shrug, wishing I hadn't admitted anything" 
+    holly "I've just never thought of it as something anyone else needed to know...and now I'm getting help, worrying about it seemed pointless."
+    #haley tears?
+    "Her eyes well up again and tears drip down her cheeks."
+    holly "Don't cry Haley" 
+    "I pull her in for a hug and her arms wrap tightly around me" 
+    holly"I'm not worth crying over, there are bigger problems in the world."
+    h_haley "You always say things like that Holly," 
+    "she sniffs and looks up at me, her eyes staring straight into mine" 
+    h_haley "There might be other problems out there, but you are definitely worth crying over. In fact, you're worth so much more than crying over! Do you have any idea how much hurt anyone who knows you would've felt if you'd gone through with it? Everyone who meets you loves you sweetheart, and those lucky few that are allowed into your world, that get the chance to get close to you, they think you're incredible, they'd do anything to make you happy, they just adore you Holly." 
+    "She takes in a deep breath to steady herself, the tears fall thick and fast down her cheeks now."
+    h_haley "You're so kind and considerate, I can't believe that even in that situation your first thought was that you might hurt someone else. And you're so strong, you don't give yourself nearly enough credit for getting through what you have, depression is a seriously difficult thing to overcome and you fight yourself at every turn, I've seen you do it. Letting people into your world is hard, even harder after what happened with Erin..."
+    h_haley "I just want you to know that you're not alone in this Holly, we're all here for you and we all want the best for you because that's all you want for everyone else. I hope so much that one day you get your happy ending sweetheart; I've never met anyone who deserves it more than you."
+    "She takes another deep breath and rests her head against my chest, trying to get her breathing back to normal. I don't know what to say, I pull her in closer and lean against the headboard, kissing the top of her head softly as I run my fingers across her back."
+    holly "This makes me happy," 
+    "I whisper" 
+    holly "I'm so glad to have you in my life Haley."
+    h_haley "I want you to promise me something." 
+    "her voice muffled by my hoodie."
+    holly "What?"
+    h_haley "I want you to promise that if things ever get that bad again, you'll come find me and tell me...or call me, or text, or write a letter, or...or...just promise me you won't suffer alone."
+    holly "I promise." 
+    "I answer earnestly." 
+    h_haley "Good."
+    "Her fingers grip my hoodie tightly as fatigue starts to stab at my eyes."
+    h_haley "It's OK Holly, go to sleep." 
+    "She whispers, obviously able to feel my breathing deepening and my body relaxing under her."
+    holly "Thanks Haley."
+    "I sigh as I drift off once more."
+    with fade
+    #Sleepy time add sleepy expression mby drool?
+
+    "My eyelids flutter open again in the early hours of the morning. I've shuffled down into the bed in my sleep and Haley is now laid beside me, the pillow still separates us but her fingers are entwined in my hair. I smile a little at this comforting gesture and adjust the pillow so I can shuffle closer to her. She sighs and closes the gap between us fully, her hand drops to my waist and she pulls me gently into her body until my forehead is touching her chin."    
+    "Her lips press softly against my skin and I wrap my arm around her before sleep consumes me once again."
+    with fade
+    #scene morning
+    "I wake the next morning to Haley attempting to slide out of bed without disturbing me, a difficult feat as we're still wrapped so closely around each other it's hard to tell which limbs belong to each of us."
+    h_haley "Morning," 
+    #haley smile 
+    "How're you feeling?"
+    holly "Like I've got one hell of a cold coming on," 
+    "I groan as I take note of the pounding headache, sore throat and blocked nose I've woken up with"
+    holly "I'm definitely going to suffer for yesterday."
+    h_haley "Stay here and try to go back to sleep," 
+    "She smiles again and throws a blanket over the bed" 
+    h_haley "I'll come and check on you in a bit." 
+    "She tucks some stray hairs behind my ear and leaves."
+    "A warm, fuzzy feeling fills my chest as I snuggle back down under the covers and manage to fall into a thankfully dreamless sleep."
+    #haley disapear
+    scene bg sadie livingroom day with dissolve
+    show h_holly b_0 at centerleft, faceright with easeinleft
+    show h_haley a_13 at centerright faceleft
+
+    "I wander into the front room some three hours later."
+    h_haley "Hey sleepyhead," 
+    "Haley grins as I slump down next to her on the sofa" 
+    h_haley "Sleep well?"
+    holly "Better than I have done in weeks." 
+    #holly smile
+    holly "Thank you so much Haley, I don't know what I'd do without you."
+    "She pulls me in for another amazing cuddle that warms my soul and eases the throbbing headache I'm still experiencing."
+    h_haley "I've got some good news for you..."
+    holly "Hmmm?" 
+    #holly close eyes
+    #haley concerned
+    h_haley "Bethany messaged to say her and Paul were going away for another few days." 
+    "My eyes snap open" 
+    h_haley "She thought...and I agree...that maybe it'd be good for you and Paul to have a bit more of a break from each other..."
+    holly "Maybe..." 
+    #cuddles?
+    h_haley "Space might be just what the two of you need." 
+    "She kisses my forehead" 
+    h_haley "But you know... I don't think what he said came from a malicious place..."
+    #holly mad
+    holly "It sounded pretty malicious to me."
+    h_haley "I know, but I think he just panicked, I don't think he really understands-"
+    #holly even more mad
+    holly "That doesn't give him the right to say what he did." 
+    "I reply angrily, wondering why she's trying so hard to defend him."
+    h_haley "I know." 
+    "She kisses my forehead again and changes tact."
+    h_haley "So I was thinking...it might be a bit soon for you to go back to work, but how about we try going to the shops this afternoon? We could get something for dinner, maybe cook together, then watch a film before bed?"  
+    holly "{i}Sounds good.{/i}" 
+    "Privately I think it sounds awful, I know she's only trying to help me get better and distract me from my thoughts, but right now all I want to do is curl up on the sofa with her arms wrapped around me and not move for a considerable period of time."
+    #scene swap? blur?
+    scene h_bg dusk with dissolve 
+    
+    "Overall the shopping trip went well, I only had a few moments of panic as we went up and down the aisles, but Haley did an amazing job of keeping me calm and distracted. We got home, put the food away and made a basic meal of spaghetti before settling down to watch the film."
+    
+    scene bg sadie livingroom
+
+    "The closer we got to it being time to go to bed, the more despondent and withdrawn I became. I knew Haley would be heading out to work in the morning and that she'd need a full night's sleep, she couldn't sit up talking to me..."
+    h_haley "You ok sweetheart?" 
+    holly "What? Oh...yeah I'm fine." 
+    h_haley "Talk to me Holly,"
+    " she pauses the TV" 
+    h_haley "You can't get better if you keep everything inside."
+    holly "It's really stupid..."
+    h_haley "I won't laugh, I promise." 
+    #extra smile haley
+    "She smiles and lifts my chin." 
+    holly "I really don't want to go to bed..." 
+    "I breathe"
+    "it's like...I can get in bed and fall asleep, but I can't stay asleep and then my mind starts working overtime thinking about nothing...and then I either fall asleep again and have a nightmare...or I wake up every ten minutes feeling anxious and like the walls are closing in in the dark..." 
+    "I pause for breath" 
+    holly "And I also really don't want to wake you up in the early hours if I have another bad dream when I know you've got to get up for work..."
+    h_haley "Ok"
+    # haley mega smile
+    h_haley "first of all, I appreciate your concern over waking me, but honestly I'd much rather you did than struggling on in the dark feeling like that. Secondly, that's not stupid at all! You need to give yourself more credit, you've been through so much recently, I'm surprised you're even managing a bit of sleep...and finally," 
+    "she pulls me in for a hug" 
+    "If you ever feel like you just can't cope alone, please come and wake me up."
+    "I nod with as much conviction as I can and tighten my grip around her waist."
+    h_haley "I'm gonna grab a quick shower and then get in bed," 
+    "She says and I loosen my grip," 
+    "if you need anything...and I mean anything...you come and see me, OK?"
+    holly "OK." 
+    #holly smile
+    "As Haley leaves I figure I may as well try and get myself to sleep, I feel tired even though I've actually slept for most of the day."
+    "I sigh loudly as I stand up and switch off the tv. A quiet determination fills my brain and I take several deep breaths...I will not wake Haley up later."
+    #transition to night room
+    with fade
+    #holly cry
+    "I wake up in a cold sweat...looking across at the clock I'm almost heartbroken to find it's only 2:38am. The familiar feelings of panic and anxiety begin to filter through my body before I even have chance to stop them."
+    "I close my eyes and try to get a handle on my breathing, in through the nose, out through the mouth, all that crap. Needless to say, it doesn't work. I finally give in and leave the room with the intention of getting a drink from the kitchen and going to sit in the front room with something random on the TV in an attempt to feel like I'm not alone."
+    "I get halfway down the hallway and pause outside Haley's room. My hand hovers over the door handle and I bite my bottom lip, weighing up my options before deciding that despite what she said, I can't do this to her so early in the morning. I get as far as pulling my hand away when the door opens from the other side."
+    #show haleys
+    h_haley "Come here sweetheart." 
+    "Haley takes my hand and drags me into the room."
+    "I don't even try to stop her, I'm so thankful she opened the door I can't even speak. Silent tears run down my face as we climb into bed and she pulls me to her."
+    "She lays back and her arms wrap around me as she holds me tightly against her body, I rest my head on her chest and listen to the comforting thump of her heart beating under her ribs."
+
+
+
+
+
+
 
     #-----------------------------------------------------------------------------------------------------------------
     #Position(xpos = (placement_of(h_holly).xpos - 0.10)) with move
@@ -2084,7 +2292,7 @@ label scenario_a_story_about_holly:
     scene bg sadie livingroom day blur
     scene bg connie bedroom clean dark
     scene bg connie bedroom blur
-    scene bg leona room dark
+    scene bg leona room dark #haleys bedroom
     scene bg rachel bathroom
     #Lower xalign -> more to left
     #Lower ypos -> downwards
